@@ -17,7 +17,15 @@ const eight = (int1, int2) => {
 console.log(eight(2, 2))
 // 9. Write a function that returns another function. (use arrow functions please)
 
+const functioning = () => {
+  return "Another function";
+}
 
+const nine = (func) => {
+  return func();
+}
+
+console.log(nine(functioning))
 
 
 // 10. given the following code:
