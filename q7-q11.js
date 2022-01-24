@@ -43,6 +43,8 @@ console.log(getFunction()(2))
 
 // Explain why the function that returns from getFunction still has access to "y" if "y" is not a global variable.
 
+// !!! Because closures give you access to an outer functions scope from an inner function !!!
+
 
 
 // 11. write a function that takes "couldThrowError()" as a callback argument.
