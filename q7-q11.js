@@ -10,7 +10,14 @@ console.log(seven(2, 2))
 
 // 8. Write a function that takes 2 numbers as arguments and returns the sum of both numbers and the variable "x", using arrow functions.
 
+const eight = (int1, int2) => {
+  return int1 + int2 + x;
+}
+
+console.log(eight(2, 2))
 // 9. Write a function that returns another function. (use arrow functions please)
+
+
 
 
 // 10. given the following code:
