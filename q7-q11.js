@@ -2,6 +2,12 @@ const x = 6
 
 // 7. Write a function that takes 2 numbers as arguments and returns the sum of both numbers and the variable "x" using without using arrow functions.
 
+function seven(int1, int2) {
+  return int1 + int2 + x;
+}
+
+console.log(seven(2, 2))
+
 // 8. Write a function that takes 2 numbers as arguments and returns the sum of both numbers and the variable "x", using arrow functions.
 
 // 9. Write a function that returns another function. (use arrow functions please)
