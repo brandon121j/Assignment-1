@@ -42,11 +42,11 @@ console.log(eight(2, 2))
 // 9. Write a function that returns another function. (use arrow functions please)
 
 const functioning = () => {
-  return "Another function";
+  return "another function";
 }
 
 const nine = (func) => {
-  return func();
+  return "This is " + func();
 }
 
 console.log(nine(functioning))
@@ -84,10 +84,17 @@ const couldThrowError = () => {
   return 'success'
 }
 
-const eleven = (func) => {
-  return func()
+const eleven = () => {
+  const ans = couldThrowError();
+  return ans;
 }
 
-console.log(eleven(couldThrowError))
+try {
+  console.log(eleven())
+} catch(err) {
+  console.log(err.ans)
+}
+
+
 
 
