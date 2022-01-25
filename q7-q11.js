@@ -1,3 +1,26 @@
+// 1. What is a javascript function? 
+
+// A block of code designed to perform a perticular task
+
+
+// 2. What is a callback?
+
+
+
+
+// 3. can callbacks only be used in asynchronous code?
+
+
+// 4. Why are javascript functions first-class citizens?
+
+
+// 5. Explain javascript Closures?
+
+
+// 6. explain try/catch blocks
+
+
+
 const x = 6
 
 // 7. Write a function that takes 2 numbers as arguments and returns the sum of both numbers and the variable "x" using without using arrow functions.
@@ -59,5 +82,11 @@ const couldThrowError = () => {
   
   return 'success'
 }
+
+const eleven = (func) => {
+  return func()
+}
+
+console.log(eleven(couldThrowError))
 
 
