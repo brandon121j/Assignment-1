@@ -92,7 +92,7 @@ const eleven = () => {
 try {
   console.log(eleven())
 } catch(err) {
-  console.log(err.ans)
+  console.log("ERROR: ", err)
 }
 
 
