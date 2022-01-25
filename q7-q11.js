@@ -1,24 +1,25 @@
 // 1. What is a javascript function? 
-
 // A block of code designed to perform a perticular task
 
 
 // 2. What is a callback?
-
-
+// A callback is a function passed as an argument for another function
 
 
 // 3. can callbacks only be used in asynchronous code?
+// No, callbacks are not limited to asynchronous code
 
 
 // 4. Why are javascript functions first-class citizens?
+// Because javascript functions are treated like values of other types
 
 
 // 5. Explain javascript Closures?
+// The inner function always has access to the variables of the outer function
 
 
 // 6. explain try/catch blocks
-
+// A block of code to be tested while being executed
 
 
 const x = 6
